@@ -1,10 +1,11 @@
-package com.mycanada.poc
+package com.mycanada.poc.ui.main
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.mycanada.poc.ui.main.MainFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.mycanada.poc.R
+import dagger.android.support.DaggerAppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : DaggerAppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

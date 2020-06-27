@@ -1,7 +1,10 @@
 package com.mycanada.poc.ui.main
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
+import com.mycanada.poc.repository.InformationRepository
+import javax.inject.Inject
 
-class MainViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+class MainViewModel
+@Inject constructor(informationRepository: InformationRepository) : ViewModel() {
+
 }
