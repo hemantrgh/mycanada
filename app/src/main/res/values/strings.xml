@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyCanada</string>
+    <string name="no_data_found">No data found</string>
+    <string name="data_fetch_error">Problem in fetching data. Please try again later.</string>
 </resources>

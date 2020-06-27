@@ -1,7 +1,6 @@
 package com.mycanada.poc.ui.main
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.mycanada.poc.R
 import dagger.android.support.DaggerAppCompatActivity
 

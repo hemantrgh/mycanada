@@ -7,4 +7,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Theme.Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">@dimen/text_size_24sp</item>
+    </style>
+
+    <style name="Theme.Description" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/description_color</item>
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+    </style>
+
 </resources>

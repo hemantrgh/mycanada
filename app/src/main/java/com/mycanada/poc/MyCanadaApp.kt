@@ -1,6 +1,5 @@
 package com.mycanada.poc
 
-import android.app.Application
 import com.mycanada.poc.di.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication

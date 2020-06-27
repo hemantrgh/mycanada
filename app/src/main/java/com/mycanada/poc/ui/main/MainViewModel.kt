@@ -6,5 +6,5 @@ import javax.inject.Inject
 
 class MainViewModel
 @Inject constructor(informationRepository: InformationRepository) : ViewModel() {
-
+    val informationModel = informationRepository.getInformation()
 }

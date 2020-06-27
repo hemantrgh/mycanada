@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_10dp">10dip</dimen>
+    <dimen name="radius_18dp">18dip</dimen>
+
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+</resources>

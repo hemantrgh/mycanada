@@ -2,7 +2,6 @@ package com.mycanada.poc.repository
 
 import androidx.lifecycle.LiveData
 import com.mycanada.poc.AppExecutors
-import com.mycanada.poc.api.ApiResponse
 import com.mycanada.poc.api.InformationAPI
 import com.mycanada.poc.model.InformationModel
 import com.mycanada.poc.repository.repoutils.NetworkBoundResource
